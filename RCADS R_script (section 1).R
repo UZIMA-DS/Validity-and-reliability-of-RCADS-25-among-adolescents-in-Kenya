@@ -1,7 +1,4 @@
 
-#-----------------------------------------------------------------------------------------------------------------
-#Validity and reliability of the Swahili version of the 25-item Revised Child Anxiety and Depression Scale in Kenya
-#------------------------------------------------------------------------------------------------------------------
 
 #Section 1
 
@@ -454,7 +451,6 @@ df <- df %>%
 
 tab1(df$anx, graph = F)
 binom.test(13, (1163-7))
-
 
 
 
